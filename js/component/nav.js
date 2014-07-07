@@ -36,7 +36,6 @@ define(function (require) {
     this.createNav = function(e, data) {
       var $node = this.$node;
       var that = this;
-      $node.append('<p class="navbar-text">Cities</p>');
       $node.append('<ul class="nav navbar-nav"></ul>');
       var cityList = $node.find('.navbar-nav');
       
