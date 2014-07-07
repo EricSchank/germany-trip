@@ -23,7 +23,7 @@ define(function (require) {
 
   function initialize() {
     Data.attachTo(document);
-    Nav.attachTo('.navbar .container');
+    Nav.attachTo('.navbar .container-fluid');
     Gallery.attachTo('.gallery');
     PicModal.attachTo('.modal');
   }
